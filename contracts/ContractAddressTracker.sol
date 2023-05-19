@@ -13,4 +13,8 @@ contract ContractAddressTracker {
     function getContractAddresses() public view returns (address, address) {
         return (sealToken, tetherToken);
     }
+
+    function getSealTokenAddresses() public view returns (address) {
+        return sealToken;
+    }
 }
